@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\VotingServer.dir/objects.a
-"C:\c compiler\ucrt64\bin\ar.exe" qc CMakeFiles\VotingServer.dir/objects.a @CMakeFiles\VotingServer.dir\objects1.rsp
-"C:\c compiler\ucrt64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\VotingServer.dir/objects.a -Wl,--no-whole-archive -o VotingServer.exe -Wl,--out-implib,libVotingServer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\VotingServer.dir\linkLibs.rsp

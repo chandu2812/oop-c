@@ -1,5 +1,0 @@
-C1,M. K. Stalin (DMK),0
-C2,Edappadi K. Palaniswami (AIADMK),0
-C3,K. Annamalai (BJP),0
-C4,Vijay (TVK),0
-C5,Seeman (NTK),0
