@@ -1,0 +1,3 @@
+D:/SecureVotingSystem/build/CMakeFiles/VotingServer.dir
+D:/SecureVotingSystem/build/CMakeFiles/edit_cache.dir
+D:/SecureVotingSystem/build/CMakeFiles/rebuild_cache.dir
