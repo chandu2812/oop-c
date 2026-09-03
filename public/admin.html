@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - Election Results</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>Live Election Tally</h2>
+        <pre id="output" style="background: #e9ecef; padding: 15px; border-radius: 4px; overflow-x: auto;"></pre>
+        <button onclick="loadResults()">Refresh Tally</button>
+    </div>
+
+    <script>
+        async function loadResults() {
+            const res = await fetch('/api/results');
+            const data = await res.json();
+            document.getElementById('output').innerText = JSON.stringify(data, null, 2);
+        }
+        loadResults();
+    </script>
+</body>
+
+</html>

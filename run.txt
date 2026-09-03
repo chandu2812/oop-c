@@ -1,0 +1,5 @@
+# 1. Navigate to root
+cd D:\SecureVotingSystem
+
+# 2. Run executable
+.\build\VotingServer.exe

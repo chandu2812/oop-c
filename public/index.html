@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Voting System - Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>Voter Login</h2>
+        <input type="text" id="loginId" placeholder="Voter ID">
+        <input type="password" id="loginPwd" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <div class="card">
+        <h2>New Voter Registration</h2>
+        <input type="text" id="regId" placeholder="Voter ID">
+        <input type="password" id="regPwd" placeholder="Password">
+        <input type="text" id="regName" placeholder="Full Name">
+        <input type="number" id="regAge" placeholder="Age">
+        <button onclick="register()">Register</button>
+    </div>
+
+    <script src="js/auth.js"></script>
+</body>
+
+</html>

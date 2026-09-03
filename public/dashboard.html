@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Voting Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>Cast Your Vote</h2>
+        <p>Active Voter ID: <strong id="displayId"></strong></p>
+        <select id="candidateSelect">
+            <option value="C1">M. K. Stalin (DMK)</option>
+            <option value="C2">Edappadi K. Palaniswami (AIADMK)</option>
+            <option value="C3">K. Annamalai (BJP)</option>
+            <option value="C4">Joseph Vijay (TVK)</option>
+            <option value="C5">Seeman (NTK)</option>
+        </select>
+        <button onclick="castVote()">Submit Vote</button>
+        <button onclick="logout()" style="background-color: #dc3545; margin-top: 20px;">Logout</button>
+    </div>
+
+    <script src="js/vote.js"></script>
+    <script>
+        const storedId = localStorage.getItem('voterId');
+        if (!storedId) window.location.href = '/';
+        document.getElementById('displayId').innerText = storedId;
+    </script>
+</body>
+
+</html>
